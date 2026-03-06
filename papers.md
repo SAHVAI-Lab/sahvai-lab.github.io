@@ -53,6 +53,34 @@ We developed a simplified ABC/2-derived method to estimate total subarachnoid he
 
 ---
 
+## Open Source Tools & Code
+
+### SAH Segmentation U-Net (Thanellas et al.) 🔧
+**Repository:** [SAHVAI-Lab/segment-ncct-sah](https://github.com/SAHVAI-Lab/segment-ncct-sah) | [Original: athanell/segment-ncct-sah](https://github.com/athanell/segment-ncct-sah)
+
+**Deep Learning algorithm for automated SAH detection and segmentation on non-contrast head CT scans**
+
+A U-net convolutional neural network trained on 90 SAH + 22 control image volumes. Built on NiftyNet framework, providing semantic segmentation of subarachnoid blood from NCCT scans.
+
+**Performance (External Validation):**
+- **Swiss Dataset (1,100 volumes):** 100% sensitivity, 57.7% specificity
+- **Indian Dataset (279 volumes):** 97.3% sensitivity, 86.0% specificity  
+- **Finnish Hospitals (519 volumes):** 100% sensitivity, 87.3% specificity
+- **Slice-level (Swiss):** 87.4% sensitivity, 95.3% specificity, 95.0% accuracy
+
+**Key Features:**
+- Handles pre-operative and post-operative images (robust to artifacts)
+- Multi-planar reformat (MPR) support
+- Outputs binary 3D NIFTI mask (1=blood, 0=background)
+- DICOM and NIFTI input formats
+- Installation guide and inference scripts included
+
+**Relevance to SAHVAI:** Complementary segmentation approach for cross-validation and comparison with SAHVAI-3D/4D methods. Excellent resource for researchers developing SAH detection algorithms.
+
+**Added:** 2026-03-06 - Integrated into SAHVAI Lab GitHub resources
+
+---
+
 ## AI & Deep Learning Applications
 
 ### Attention-Enhanced Deep Learning for Hemorrhagic vs Ischemic Stroke Classification (2026) ⭐
