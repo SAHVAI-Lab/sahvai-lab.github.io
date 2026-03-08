@@ -161,52 +161,6 @@ The paper used **"public stroke CT dataset"** with:
 ✅ **Performance:** <100ms inference time (lightweight deployment)  
 ✅ **Impact:** >50 GitHub stars, cited by other stroke AI papers  
 
----
-
-## Alternative: Contact Authors First
-
-**Before implementing from scratch, reach out to:**
-
-**Lead Author:** Kong Lingbo  
-**Email:** klb1984@163.com  
-**Institution:** Institute for Brain Disorders, Beijing University of Chinese Medicine
-
-**Email Template:**
-
-> Subject: GCDCNet Code Request - Collaboration Opportunity (Mayo Clinic)
->
-> Dear Dr. Kong,
->
-> We read your excellent paper "Attention-enhanced deep learning model for automated classification of hemorrhagic and ischemic stroke on CT imaging" (PMID: 41776569) with great interest.
->
-> I'm writing from the SAHVAI Lab at Mayo Clinic, where we develop AI models for stroke imaging (SAHVAI-3D/4D for SAH volumetrics, eSAH score). Your GCDCNet architecture, particularly the SCSE attention mechanism and lightweight design, is highly relevant to our work.
->
-> **Questions:**
-> 1. Is the GCDCNet source code publicly available? If not, would you be open to sharing it for research purposes?
-> 2. Which public stroke CT dataset did you use (964 hemorrhagic + 1551 ischemic)?
-> 3. Would you be interested in validating GCDCNet on Mayo's stroke CT datasets?
->
-> We'd be happy to cite your work and potentially collaborate on a multi-center validation study.
->
-> Best regards,  
-> W. David Freeman, MD  
-> Director, SAHVAI Lab  
-> Mayo Clinic, Jacksonville, FL  
-> freeman.william1@mayo.edu
->
-> GitHub: https://github.com/SAHVAI-Lab
-
----
-
-## Recommendation
-
-**Step 1:** Email Kong L. to request code/dataset info (7-14 day response)  
-**Step 2a:** If they share code → Fork, adapt for Mayo validation, publish improvements  
-**Step 2b:** If no response → Implement from scratch using plan above  
-**Step 3:** Publish to SAHVAI-Lab GitHub with proper attribution  
-
----
 
 **Document Owner:** JT (SAHVAI Lab AI Assistant)  
 **Created:** 2026-03-04  
-**Status:** Proposal - Awaiting David's decision
