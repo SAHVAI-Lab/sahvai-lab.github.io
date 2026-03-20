@@ -65,7 +65,7 @@ Mayo Clinic, Jacksonville, Florida
 - **Saif Salman, MD** — Project Manager, Neurosurgery, Mayo Clinic
 
 **Collaborators:**  
-Rohan Sharma, Sanjana Salman, Rabih Tawk MD, Bradley Erickson MD PhD, and the Mayo Clinic AI & Neurocritical Care teams.
+Rohan Sharma, Sanjanna Reddy, Rabih Tawk MD, Bradley Erickson MD PhD, and the Mayo Clinic AI & Neurocritical Care teams.
 
 ---
 
